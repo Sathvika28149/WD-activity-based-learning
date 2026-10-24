@@ -1,0 +1,140 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fffaf0;
+    color: #333333;
+}
+
+/* Header */
+header {
+    background-color: #174a65;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+/* Banner */
+.banner {
+    background-color: #f2d6a2;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.banner h2 {
+    color: #174a65;
+    font-size: 32px;
+}
+
+.banner p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #d2691e;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #174a65;
+    margin-bottom: 25px;
+}
+
+/* Image gallery */
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 280px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px #cccccc;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card h3 {
+    color: #d2691e;
+}
+
+.card p {
+    line-height: 1.5;
+}
+
+/* Travel tips */
+.tips {
+    background-color: #e6f0e8;
+}
+
+.tips ul {
+    display: inline-block;
+    text-align: left;
+    line-height: 2;
+}
+
+/* Footer */
+footer {
+    background-color: #174a65;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 85%;
+        max-width: 300px;
+    }
+
+    .banner h2 {
+        font-size: 26px;
+    }
+}
